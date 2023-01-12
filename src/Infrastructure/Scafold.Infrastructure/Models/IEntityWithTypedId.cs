@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Scafold.Infrastructure.Models
 {
-    public interface IEntityWithTypedId
+    public interface IEntityWithTypedId<TId>
     {
+        TId Id { get; }
     }
 }

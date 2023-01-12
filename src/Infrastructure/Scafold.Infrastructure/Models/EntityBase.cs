@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Scafold.Infrastructure.Models
 {
-    public abstract class EntityBase
+    public abstract class EntityBase : EntityBaseWithTypedId<long>
     {
+
     }
 }

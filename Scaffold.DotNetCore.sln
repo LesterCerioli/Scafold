@@ -27,10 +27,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scafold.Infrastructure.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scafold.Modules.Core.Tests", "test\Scafold.Modules.Core.Tests\Scafold.Modules.Core.Tests.csproj", "{0FEE1274-A2D5-4187-8E7F-84EDC4527658}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Processing", "Processing", "{7D57CD23-D8A3-48F9-AF4A-FE28740DF779}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scafold.Wcf", "src\Processing\Scafold.Wcf\Scafold.Wcf.csproj", "{792159DC-A842-4CB4-ABAF-135B0B4052C8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,10 +57,6 @@ Global
 		{0FEE1274-A2D5-4187-8E7F-84EDC4527658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FEE1274-A2D5-4187-8E7F-84EDC4527658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FEE1274-A2D5-4187-8E7F-84EDC4527658}.Release|Any CPU.Build.0 = Release|Any CPU
-		{792159DC-A842-4CB4-ABAF-135B0B4052C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{792159DC-A842-4CB4-ABAF-135B0B4052C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{792159DC-A842-4CB4-ABAF-135B0B4052C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{792159DC-A842-4CB4-ABAF-135B0B4052C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,8 +72,6 @@ Global
 		{58E6BF86-AC58-47D8-9A8D-ABB991E04D75} = {60E787AE-0612-4073-AB6A-21A8E5A16D95}
 		{7CA8C43C-80A6-4FD7-8011-EA18A50CE89C} = {5E62DD5F-460A-4CA9-A665-FB2C3CC9E3F1}
 		{0FEE1274-A2D5-4187-8E7F-84EDC4527658} = {5E62DD5F-460A-4CA9-A665-FB2C3CC9E3F1}
-		{7D57CD23-D8A3-48F9-AF4A-FE28740DF779} = {4C627EEE-232A-48D6-9DBA-EE2898A3B917}
-		{792159DC-A842-4CB4-ABAF-135B0B4052C8} = {7D57CD23-D8A3-48F9-AF4A-FE28740DF779}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96E808E8-CC9B-46B2-990F-9E72BF20B572}
